@@ -16,6 +16,11 @@ The dataset includes the following files:
 - 'Code Book.txt': Code Book for summaryDB dataset
 - 'run_analysis.R': R code used to get and clean the data
 
+How to read the dataset using R
+===============================
+data <- read.table("summarydb.txt", header = TRUE)
+View(data)
+
 License:
 ========
 This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
